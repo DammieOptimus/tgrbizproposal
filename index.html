@@ -6,24 +6,37 @@
     <title>Business Proposal: Top-Up and Get Reward (TGR) Membership Opportunity</title>
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
     <style>
+        /* Set the page to A4 dimensions */
+        @page {
+            size: A4;
+            margin: 0; /* Remove default margins */
+        }
+
+        /* Ensure the body takes up the full A4 page */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            width: 210mm;
+            height: 297mm;
             /* background-color: #f4f4f4; */
             background-image: url('images/tgrproposalletter.png');
-            background-repeat: no-repeat;
-            /* background-attachment: fixed; */
             background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .container {
-            width: 90%;
+            width: 90%;  /* Adjust as needed */
+            padding: 40px;   /* Add padding to avoid edges */
             margin: 0 auto;
             /* background-color: #fff; */
-            padding: 40px;
+            background: rgba(255, 255, 255, 0); /* Transparent background */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            position: relative;
+            /* position: relative; */
         }
 
         header {
@@ -95,20 +108,17 @@
 </head>
 <body>
 
-    <!-- Left sidebar with logos -->
-    <div class="sidebar">
-        <img src="./images/airtellogo.jpeg" alt="Airtel Logo">
-        <img src="./images/glologo.jpeg" alt="GLO Logo">
-    </div>
-
     <!-- Main container -->
     <div class="container">
 
         <!-- Header with main logo -->
+        
+        <!-- 
         <header>
             <img src="./images/tgrlogo.png" alt="Main Company Logo">
             <h3>Business Proposal: Top-Up and Get Reward (TGR) Membership Opportunity for <span id="companyName"></span></h3>
         </header>
+        -->
 
         <!-- Contact Information -->
         <div class="contact-info">
